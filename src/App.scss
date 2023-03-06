@@ -1,0 +1,18 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: rgba(0, 172, 115, 1);
+}
+
+.btn-primary {
+    @apply bg-[orange] py-[20px] px-[30px] rounded-xl active:scale-[0.7] ;
+}
+
+.def-inp {
+    all: unset;
+    @apply px-4 py-5 w-full text-white placeholder:text-white
+}
